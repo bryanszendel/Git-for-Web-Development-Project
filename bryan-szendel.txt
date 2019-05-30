@@ -1,3 +1,19 @@
 This is my txt file!
 
-Hooray!
+Steps to begin a forked repo:
+
+1. Open the github repository
+2. Fork the repository
+3. Add PM as collaborator
+4. copy forked HTTPS or SSH repo link
+5. Open Terminal
+6. cd into directory
+7. git clone <URL>
+8. git checkout -b bryan-szendel
+9. make changed on your branch in the files
+10. git add -a (to add any new files)
+11. git commit -m "here is the commit message"
+12. git push origin bryan-szendel
+13. got to your GitHub forked repo and click the pull request. 
+    Make sure the branches are correct.
+    add PM as reviewer.
