@@ -1,0 +1,51 @@
+This is my txt file!
+
+Steps to begin a forked repo:
+
+1. Open the github repository
+2. Fork the repository
+3. Add PM as collaborator
+4. copy forked HTTPS or SSH repo link
+5. Open Terminal
+6. cd into directory
+7. git clone <URL>
+8. git checkout -b bryan-szendel
+9. make changed on your branch in the files
+10. git add -a (to add any new files)
+11. git commit -m "here is the commit message"
+12. git push origin bryan-szendel
+13. go to your GitHub forked repo and click the pull request. 
+    Make sure the branches are correct.
+    add PM as reviewer.
+
+STRETCH GOALS
+
+** Resolving a merge conflict on GitHub **
+https://help.github.com/en/articles/resolving-a-merge-conflict-on-github
+
+This happens typically when two or more different people are working on the same line of code and they submit different code.
+Ultimately, you'll have to choose which code goes there. Whether you pick one or the other vs. combining parts of each together.
+
+
+** Pull / Rebase / Merge **
+https://medium.com/datadriveninvestor/git-rebase-vs-merge-cc5199edd77c
+
+Pull - will allow you to submit a request for a code review. The idea is to include a review step prior to merging the code branch into master.
+Rebase - takes the feature branch you're working on essentially makes that the new starting point. History is erased. 
+Merge - takes your feature branch and merges it back into master and preserves history. 
+
+
+** Reset / Revert / Clean **
+https://git-scm.com/docs/git-reset
+https://git-scm.com/docs/git-revert
+https://git-scm.com/docs/git-clean
+
+Reset - throw away any uncommitted changes and starts the code base back at your last commit
+Revert - allows you to undo some previous commits
+Clean - Remove untracked files from the working tree
+
+
+** Installed GitKraken **
+
+
+** setup with SSH **
